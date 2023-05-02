@@ -1,28 +1,88 @@
 .section {
-width: 100vw;
-height: 100vh;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .section.one {
-    background-image: url("../media/1.avif");
 }
 .section.two {
-    background-image: url("../media/2.avif");
+  background-image: url("../media/2.avif");
 }
 .section.three {
-    background-image: url("../media/3.avif");
+  background-image: url("../media/3.avif");
 }
 .section.four {
-    background-image: url("../media/4.avif");
+  background-image: url("../media/1.avif");
 }
 .section.five {
-    background-image: url("../media/5.avif");
+  background-image: url("../media/4.avif");
 }
 .section.six {
-    background-image: url("../media/6.avif");
+  background-image: url("../media/5.avif");
 }
 .section.seven {
+  background-image: url("../media/6.avif");
+}
+.section.eight {
     background-image: url("../media/7.avif");
+  }
+.section-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+}
+.section-content-title {
+    font-size: 4rem;
+    font-weight:600;
+    margin-bottom: 0.5rem;
+}
+.section-content-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.section-content-subtitle a {
+    text-decoration: underline;
+    color: inherit;
+}
+.section-content-subtitle a:hover {
+	text-decoration-thickness: 1.5px;
+}
+.action-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40rem;
+}
+.section-action-btn {
+    font-size: 1.5rem;
+	font-weight: 500;
+	padding: 1rem;
+	border-radius: 2rem;
+	flex-basis: 80%;
+	margin-bottom: 1rem;
+}
+.primary-btn {
+	background: rgba(23, 26, 42, 0.8);
+	color: white;
+}
+.secondary-btn {
+	background: rgba(255, 255, 255, 0.65);
+	color: var(--primary-color);
 }
