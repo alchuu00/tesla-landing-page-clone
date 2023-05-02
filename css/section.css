@@ -1,0 +1,28 @@
+.section {
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.section.one {
+    background-image: url("../media/1.avif");
+}
+.section.two {
+    background-image: url("../media/2.avif");
+}
+.section.three {
+    background-image: url("../media/3.avif");
+}
+.section.four {
+    background-image: url("../media/4.avif");
+}
+.section.five {
+    background-image: url("../media/5.avif");
+}
+.section.six {
+    background-image: url("../media/6.avif");
+}
+.section.seven {
+    background-image: url("../media/7.avif");
+}
