@@ -1,0 +1,30 @@
+.header {
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+}
+.header-middle {
+  display: none;
+}
+.header-left {
+  display: block;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+.header-logo {
+  height: 100%;
+  width: 13rem;
+}
+.header-right {
+}
+.header-nav-btn {
+  display: none;
+}
+.header-nav-btn.menu-btn {
+  display: inline-block;
+}
