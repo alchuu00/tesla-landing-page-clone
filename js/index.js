@@ -2,6 +2,7 @@ const menuBtn = document.querySelector(".menu-btn")
 const navigation = document.querySelector(".navigation")
 const closeNavBtn = document.querySelector(".navigation-close-btn")
 const blurOverlay = document.querySelector(".blur-overlay")
+const fullpageEl = document.getElementById('fullpage')
 
 const IS_ACTIVE = "is--active"
 

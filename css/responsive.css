@@ -1,0 +1,48 @@
+@media screen and (min-width: 600px) {
+    .section-action-btn {
+        max-width: 30rem;
+        padding: 1.5rem;
+        flex-basis: 40%;
+      }
+      .action-container {
+        gap: 50px;
+      }
+}
+
+@media screen and (max-width: 900px) {
+  .header-nav-btn.menu-btn {
+    background-color: rgba(255, 255, 255, 0.044);
+    backdrop-filter: blur(5px);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .link-in-middle {
+    display: none;
+  }
+  .header-nav-btn:hover {
+    background-color: rgba(255, 255, 255, 0.044);
+    backdrop-filter: blur(10px);
+  }
+  .footer ul {
+    width: 70%;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .header-nav-btn {
+    display: block;
+  }
+  .header-right {
+    display: flex;
+  }
+  .footer ul {
+    width: 50%;
+}
+}
+
+@media screen and (min-width: 1600px) {
+    .footer ul {
+		width: 40%;
+	}
+}
