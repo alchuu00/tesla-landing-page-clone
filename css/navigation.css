@@ -9,9 +9,10 @@
 	background: #fff;
 	transform: translateX(100%);
 	transition: transform 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+	overflow:scroll;
 }
 
-.navigation.is--active {
+.navigation.is-active {
 	transform: translateX(0);
 }
 
@@ -64,6 +65,6 @@
 	transition: display 0.4s ease;
 }
 
-.blur-overlay.is--active {
+.blur-overlay.is-active {
 	display: block;
 }

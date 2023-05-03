@@ -3,10 +3,6 @@
   background-size: cover;
   background-position: center;
 }
-#fullpage.no-scroll {
-  overflow-y: hidden;
-  max-height: 100vh;
-}
 #background-video {
   position: fixed;
   right: 0;
@@ -53,8 +49,6 @@
   width: 100%;
   text-align: center;
   color: var(--primary-color);
-  width: 100vw;
-  height: 100vh;
   min-width: 100%;
   min-height: 100%;
 }
@@ -82,23 +76,23 @@
   text-decoration-thickness: 1.5px;
 }
 .action-container {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  bottom: 15%;
-	left: 25%;
-  right: 25%;
   position: absolute;
+	bottom: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .section-action-btn {
   font-size: 1.5rem;
   font-weight: 500;
   padding: 1rem;
   border-radius: 5px;
-  flex-basis: 80%;
   margin-bottom: 1rem;
+  width: 80%;
 }
 .primary-btn {
   background: rgba(23, 26, 42, 0.8);
