@@ -76,10 +76,8 @@
   text-decoration-thickness: 1.5px;
 }
 .action-container {
-  position: absolute;
-	bottom: 15%;
-	left: 50%;
-	transform: translateX(-50%);
+  position:fixed;
+	bottom: 20%;
 	width: 100%;
 	text-align: center;
 	display: flex;
@@ -93,6 +91,9 @@
   border-radius: 5px;
   margin-bottom: 1rem;
   width: 80%;
+}
+.section-action-btn:hover {
+  cursor: pointer;
 }
 .primary-btn {
   background: rgba(23, 26, 42, 0.8);
